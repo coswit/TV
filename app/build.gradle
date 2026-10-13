@@ -46,10 +46,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file(localProps['storeFile'])
-            keyAlias localProps['keyAlias']
-            keyPassword localProps['storePassword']
-            storePassword localProps['storePassword']
+            storeFile file("../config/keystroe.jks")
+            keyAlias "com.fongmi.android.tv"
+            keyPassword "123456"
+            storePassword "123456"
         }
     }
 
